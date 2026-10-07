@@ -56,13 +56,9 @@
 
 ---
 
-## 🤖 AI Agent Architecture Guidelines (Antigravity Rules)
+## 📚 Documentation & Specifications
 
-1. **Code-First Binding**
-   - 인스펙터 창 드래그 앤 드롭 의존 금지.
-   - UI 생성, 사운드 바인딩, 프리팹 인스턴스화는 C# 코드 내에서 동적으로 처리.
-2. **Event-Driven Decoupling**
-   - `Player`, `RoomManager`, `GachaSystem` 간 직접 참조 배제, C# Action/Event 기반 통신.
-   - 예: `OnEliteKilled?.Invoke()` 호출 시 `GachaSystem`이 감지하여 보급함 스폰.
-3. **Clean Separation**
-   - 단일 책임 원칙(SRP) 준수, 파일당 250줄 이하 유지.
+프로젝트 개발 명세 및 AI Agent 협업 헌장은 아래 전용 문서에서 확인하실 수 있습니다:
+
+* 🎯 **프로토타입 개발 및 아키텍처 명세서:** [`PROJECT.md`](./PROJECT.md)
+* 🤖 **Antigravity AI Agent 작업 지침 및 코딩 규칙:** [`AGENTS.md`](./AGENTS.md)
