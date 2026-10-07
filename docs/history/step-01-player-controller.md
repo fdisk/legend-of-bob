@@ -1,8 +1,8 @@
 # 📋 [Step 01] 플레이어 컨트롤러 & 무적 대시 프로토타입
 
-* **상태:** 🟡 진행 중 (In Progress)
+* **상태:** 🟢 완료 (Completed)
 * **담당:** Antigravity AI Agent & 개발자
-* **다음 단계:** 검증 완료 후 `docs/history/step-01-player-controller.md`로 이동
+* **완료 일시:** 2026-10-07
 
 ---
 
@@ -33,19 +33,19 @@ Assets/_Scripts/Player/
 
 ## 3. ✅ 상세 작업 체크리스트 (Checklist)
 
-- [ ] **[Task 1.1] PlayerStats.cs 작성**
+- [x] **[Task 1.1] PlayerStats.cs 작성**
   - 이동 속도, 대시 거리, 대시 지속 시간, 쿨다운 수치 정의
-- [ ] **[Task 1.2] PlayerInputHandler.cs 작성**
+- [x] **[Task 1.2] PlayerInputHandler.cs 작성**
   - Input.GetAxisRaw 수집 및 마우스 화면 좌표 전달
-- [ ] **[Task 1.3] PlayerMovement.cs 작성**
+- [x] **[Task 1.3] PlayerMovement.cs 작성**
   - 물리/이동 계산, 카메라 평면(Plane) 교차점을 통한 360도 회전
-- [ ] **[Task 1.4] PlayerDash.cs 작성**
+- [x] **[Task 1.4] PlayerDash.cs 작성**
   - Space 입력 시 순간 가속, 대시 중 무적(`IsInvincible = true`) 처리, 쿨타임 관리
-- [ ] **[Task 1.5] PlayerController.cs 작성**
+- [x] **[Task 1.5] PlayerController.cs 작성**
   - 컴포넌트 자동 바인딩(`RequireComponent`), 상태 이벤트 연동
-- [ ] **[Task 1.6] PlayerBootstrap.cs 작성**
+- [x] **[Task 1.6] PlayerBootstrap.cs 작성**
   - 빈 씬 실행 시 테스트 바닥(Plane) 및 캡슐 플레이어 자동 인스턴스화
-- [ ] **[Task 1.7] 빌드 및 인게임 테스트 검증**
+- [x] **[Task 1.7] 빌드 및 인게임 테스트 검증**
   - 이동 부드러움, 마우스 에임 정확도, 대시 쿨타임 및 무적 상태 로그 확인
 
 ---
